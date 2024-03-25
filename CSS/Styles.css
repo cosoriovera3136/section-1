@@ -1,0 +1,103 @@
+/* Name: Cristian Osorio */
+/* ID Condors: 8903136 */
+
+/* Font */
+html {
+    font: 20px Arial, sans-serif;
+}
+
+h1, h2 {
+    font-variant: small-caps;
+}
+
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.0em;
+}
+
+blockquote q {
+    font-style: 3px italic;
+}
+
+/* Box Model & Alignment */
+body {
+    padding: 1em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header, footer {
+    border: 3px solid rgb(85, 132, 233);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-section {
+    text-align: center;
+    padding: 1em;
+}
+
+#biography {
+    text-align: left;
+}
+
+.main-section-figure {
+    padding: 1em;
+    margin: 1em auto;
+    text-align: center;
+    max-width: 500px;
+}
+.Quote {
+    border: 3px solid rgb(56, 241, 39);
+    box-shadow: 5px 5px 5px rgb(85, 132, 233);
+    width: 1500px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Borders & Box Shadow */
+#absolute-path-image {
+    border: 5px solid rgb(85, 132, 233);
+    background-color: #91c1f1;
+    border-radius: 10px;
+}
+
+#relative-path-image {
+    border: 5px solid rgb(56, 241, 39);
+    background-color: #7df892;
+    border-radius: 10px;
+}
+
+iframe {
+    padding: 1em;
+    border: 6px solid rgb(56, 241, 39);
+    border-radius: 5px;
+}
+
+/* Colour */
+header, footer {
+    background: linear-gradient(to bottom, #62f8cb, #ecee70);
+    color: rgb(85, 132, 233);
+}
+
+.main-section {
+    background-color: #e9f5c8;
+}
+
+#biography  {
+    color: black;
+}
+
+#absolute-path-image figcaption {
+    color: rgb(85, 132, 233);
+}
+
+#relative-path-image figcaption {
+    color: rgb(85, 132, 233);
+}
+
+h1, h2 {
+    color: rgb(85, 132, 233);
+}
